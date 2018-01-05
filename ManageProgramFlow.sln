@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implement multithreading an
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoppingAThread", "StoppingAThread\StoppingAThread.csproj", "{8D77520E-A3A1-4832-A98B-EAE1D07A8255}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadStaticAttribute", "ThreadStaticAttribute\ThreadStaticAttribute.csproj", "{832E89D7-7991-401C-8C9A-530A4AAE709E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadLocal_T", "ThreadLocal_T\ThreadLocal_T.csproj", "{AE85DCEC-F3BE-4095-A7B7-5ADEC893DADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPoolQueing", "ThreadPoolQueing\ThreadPoolQueing.csproj", "{50B2AC16-E28F-4D2D-A194-369F03B4CC53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +25,14 @@ Global
 		{8D77520E-A3A1-4832-A98B-EAE1D07A8255}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D77520E-A3A1-4832-A98B-EAE1D07A8255}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D77520E-A3A1-4832-A98B-EAE1D07A8255}.Release|Any CPU.Build.0 = Release|Any CPU
-		{832E89D7-7991-401C-8C9A-530A4AAE709E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{832E89D7-7991-401C-8C9A-530A4AAE709E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{832E89D7-7991-401C-8C9A-530A4AAE709E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{832E89D7-7991-401C-8C9A-530A4AAE709E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE85DCEC-F3BE-4095-A7B7-5ADEC893DADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE85DCEC-F3BE-4095-A7B7-5ADEC893DADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE85DCEC-F3BE-4095-A7B7-5ADEC893DADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE85DCEC-F3BE-4095-A7B7-5ADEC893DADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B2AC16-E28F-4D2D-A194-369F03B4CC53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B2AC16-E28F-4D2D-A194-369F03B4CC53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B2AC16-E28F-4D2D-A194-369F03B4CC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B2AC16-E28F-4D2D-A194-369F03B4CC53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
