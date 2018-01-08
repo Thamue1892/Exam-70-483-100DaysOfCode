@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace ThreadStaticAttribute
 {
@@ -10,6 +11,7 @@ namespace ThreadStaticAttribute
     {
         [ThreadStatic]
         public static int _field;
+
         public static void Main()
         {
             new Thread(() =>
@@ -17,20 +19,20 @@ namespace ThreadStaticAttribute
             for (int x = 0; x < 10; x++)
             {
                 _field++;
-                Console.WriteLine(“ThreadA:{ 0}”, _field);
+                Console.WriteLine("ThreadA:{0}", _field);
         }
     }).Start();
-    new Thread(()=>
+
+    new Thread(() =>
+    {
          for(int x= 0; x<10; x++)
                     {
                         _field++;
-                        Console.WriteLine(“Thread B: {0}”, _field);
+                        Console.WriteLine("Thread B: {0}", _field);
                     }
                 }).Start();
-Console.ReadKey();
+            Console.ReadKey();
   
-        static void Main(string[] args)
-{
-}
+        }
     }
 }
