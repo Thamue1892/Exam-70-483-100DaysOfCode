@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingTask", "UsingTask\Usin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskReturningAValue", "TaskReturningAValue\TaskReturningAValue.csproj", "{4CADA052-0F8F-4014-917A-DB85BA8BF9D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttachingChildTasksToParentTask", "AttachingChildTasksToParentTask\AttachingChildTasksToParentTask.csproj", "{8707CA0C-8A31-40FB-9216-AD7BE5E51EE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{4CADA052-0F8F-4014-917A-DB85BA8BF9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CADA052-0F8F-4014-917A-DB85BA8BF9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CADA052-0F8F-4014-917A-DB85BA8BF9D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8707CA0C-8A31-40FB-9216-AD7BE5E51EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8707CA0C-8A31-40FB-9216-AD7BE5E51EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8707CA0C-8A31-40FB-9216-AD7BE5E51EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8707CA0C-8A31-40FB-9216-AD7BE5E51EE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
