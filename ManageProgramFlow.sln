@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.10
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implement multithreading and asynchronous processing", "Implement multithreading and asynchronous processing\Implement multithreading and asynchronous processing.csproj", "{317C8979-91EE-466F-AB4E-33E9C2B36520}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading", "Threading\Threading.csproj", "{90FC2035-9DE3-4E2C-8D10-E87B99D2FA48}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingBackgroundWorkerClass", "UsingBackgroundWorkerClass\UsingBackgroundWorkerClass.csproj", "{EF0D4E58-38BB-464C-8AE4-5CDBCEB9DE75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{AFEE7187-098B-4EA4-A828-F93E65F61EBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{EF0D4E58-38BB-464C-8AE4-5CDBCEB9DE75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF0D4E58-38BB-464C-8AE4-5CDBCEB9DE75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF0D4E58-38BB-464C-8AE4-5CDBCEB9DE75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFEE7187-098B-4EA4-A828-F93E65F61EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFEE7187-098B-4EA4-A828-F93E65F61EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFEE7187-098B-4EA4-A828-F93E65F61EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFEE7187-098B-4EA4-A828-F93E65F61EBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
